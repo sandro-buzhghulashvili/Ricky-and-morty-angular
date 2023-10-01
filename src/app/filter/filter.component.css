@@ -1,0 +1,10 @@
+label {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+input {
+    padding: 20px;
+}
+.container {
+    margin-bottom: 70px !important;
+}

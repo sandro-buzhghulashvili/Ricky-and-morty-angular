@@ -1,0 +1,4 @@
+<app-slider [info]="sliderArr"></app-slider>
+<h3 class="text-center display-5" style="margin:90px 50px;">All Rick And Morty Characters</h3>
+<app-filter (filterEventEmitter)="filterSubscriber($event)"></app-filter>
+<app-cards [shown]="true" [data]="characterData"></app-cards>

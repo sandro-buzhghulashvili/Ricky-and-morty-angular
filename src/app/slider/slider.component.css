@@ -1,0 +1,27 @@
+#carouselExampleCaptions img {
+    max-height: 90vh;
+}
+#carouselExampleCaptions h5,p {
+    font-size: 2.8em !important;
+    color: #e76f51;
+    font-weight: 900;
+}
+#carouselExampleCaptions {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid #264653;
+}
+#carouselExampleCaptions p {
+    font-size: 2em !important;
+    color: #e76f51;
+    font-weight: 900;
+}
+
+.carousel-indicators li {
+    height: 9px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 60px;
+    height: 60px;
+}

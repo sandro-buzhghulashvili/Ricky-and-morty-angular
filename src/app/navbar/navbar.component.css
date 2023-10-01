@@ -1,0 +1,14 @@
+nav {
+    padding: 10px 140px;
+    background-color: #e9c46a;
+    border-bottom: 2px solid black;
+}
+nav .logo {
+    width: 100px;
+}
+nav ul li {
+    font-size: 1.2rem;
+    margin: 0 20px;
+    color: #2a9d8f;
+    font-weight: 650;
+}

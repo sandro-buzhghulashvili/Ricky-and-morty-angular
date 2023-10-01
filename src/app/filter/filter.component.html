@@ -1,0 +1,16 @@
+<div class="container ">
+    <div class="row">
+        <div class="col-md-6 form-group">
+            <label for="exampleFormControlInput1">Search</label>
+            <input [(ngModel)]="name" type="text" class="form-control" placeholder="Enter Name" (input)="filterByName()">    
+        </div>
+        <div class="col-md-6 form-group">
+            <label for="exampleFormControlSelect1">Filter By Gender</label>
+            <select (change)="filterByGender()" [(ngModel)]="gender" class="form-control" id="exampleFormControlSelect1">
+                <option value="all">All</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            </div>
+    </div>
+</div>

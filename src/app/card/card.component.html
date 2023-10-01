@@ -1,0 +1,14 @@
+<div>
+    <img src="{{info.image}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{info.name}}</h5>
+      <p class="card-text">{{info.species}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">{{info.status}}</li>
+        <li class="list-group-item">{{info.origin.name}}</li>
+    </ul>
+    <div class="card-body">
+        <a *ngIf="showAlters" [routerLink]="['/about', info.name, info.status]"><button class="btn btn-primary btn-block">Show Alters</button></a>
+    </div>
+</div>
